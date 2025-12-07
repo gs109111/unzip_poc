@@ -1,5 +1,31 @@
 # unzip_poc
-See the structure of a zip file without knowing the password
-##
-## Known Impacted Operating Systems
-1. MacOS (Including Tahoe)
+A proof-of-concept demonstrating how to view the structure of a ZIP archive (file/folder names) without knowing the password
+
+This project shows how to extract:
+* File names
+* Directory hierarchy
+
+All without decrypting or accessing protected file contents
+
+# Example
+
+Command:
+python3 unzip_poc.py example.zip
+
+Sample output:
+[+] ZIP Structure:
+├── Documents/
+│ ├── report.pdf (blank)
+│ └── notes.txt (blank)
+├── Images/
+│ └── photo.jpg (blank)
+
+No password is required to view the structure but contents remain blank
+
+# Tested on
+MacOS Tahoe 
+
+# Disclaimer
+- This tool is for research and educational purposes only
+- It does not bypass encryption or access protected contents
+- Use only on archives you own or have permission to analyze
