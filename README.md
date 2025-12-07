@@ -15,6 +15,7 @@ python3 unzip_poc.py example.zip
 Sample output:
 
 Locked.zip
+
 Documents/<space><space>
 ----> report.pdf<space><space>
 ----> notes.txt<space><space>
