@@ -15,10 +15,11 @@ python3 unzip_poc.py example.zip
 Sample output:
 
 Locked.zip
---> Documents/<space><space>
+Documents/<space><space>
 ----> report.pdf<space><space>
 ----> notes.txt<space><space>
---> Images/<space><space>
+
+Images/<space><space>
 ----> photo.jpg<space><space>
 
 No password is required to view the structure but contents remain blank
