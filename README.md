@@ -13,12 +13,13 @@ Command:
 python3 unzip_poc.py example.zip
 
 Sample output:
-[+] ZIP Structure:
-├── Documents/
-│ ├── report.pdf (blank)
-│ └── notes.txt (blank)
-├── Images/
-│ └── photo.jpg (blank)
+
+Locked.zip
+--> Documents/\
+----> report.pdf\
+----> notes.txt\ 
+--> Images/\
+----> photo.jpg\ 
 
 No password is required to view the structure but contents remain blank
 
