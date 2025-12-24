@@ -2,7 +2,7 @@
 import os
 import sys
 
-# Inital Variables / Input
+# Initial Variables
 print("")
 
 zip_file = sys.argv[1]
